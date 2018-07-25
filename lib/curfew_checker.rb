@@ -1,5 +1,7 @@
 def simple_curfew_checker(time)
-  # code goes here
+  if time > 11
+    puts "It is now after 11"
+    time += 1
 end
 
 def curfew_checker(time)
